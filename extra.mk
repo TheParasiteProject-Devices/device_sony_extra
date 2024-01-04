@@ -11,6 +11,10 @@ PRODUCT_PACKAGES += \
     libsfplugin_ccodec_utils.vendor \
     libcodec2_soft_common.vendor
 
+# Configs
+PRODUCT_COPY_FILES += \
+    device/sony/extra/configs/preinstalled-packages-platform-dolby-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-platform-dolby-product.xml
+
 # Exclude AudioFX
 TARGET_EXCLUDES_AUDIOFX := true
 
