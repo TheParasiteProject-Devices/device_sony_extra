@@ -58,7 +58,12 @@ if [ -z "${SRC}" ]; then
 fi
 
 function blob_fixup() {
-    :
+    case "${1}" in
+       product/etc/default-permissions/pre_grant_permissions_oem.xml)
+            xmlstarlet ed -L --ps -d '//exceptions//exception[@package="com.facebook.appmanager"]' $2 &
+            sed -i '/For docomo/d' $2 &
+            ;;
+    esac
 }
 
 # We don't support firmware
