@@ -18,3 +18,4 @@ TARGET_EXCLUDES_AUDIOFX := true
 include device/sony/extra/properties.mk
 
 $(call inherit-product, vendor/sony/extra/extra-vendor.mk)
+$(call inherit-product, vendor/sony/extra/custom/config.mk)
