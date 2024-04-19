@@ -1,7 +1,11 @@
+# AOSP
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+ro.audio.spatializer_enabled=true \
+ro.audio.monitorRotation=true
+
 # Spatial audio
 PRODUCT_VENDOR_PROPERTIES += \
-vendor.360ra.effect=1 \
-ro.audio.spatializer_enabled=true
+vendor.360ra.effect=1
 
 # Dolby
 PRODUCT_VENDOR_PROPERTIES += \
