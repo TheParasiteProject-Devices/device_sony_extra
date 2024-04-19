@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Enable codec support
+AUDIO_FEATURE_ENABLED_DS2_DOLBY_DAP := true
+
 # Extra device compatibility matrix
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
     device/sony/extra/framework_compatibility_matrix.xml
