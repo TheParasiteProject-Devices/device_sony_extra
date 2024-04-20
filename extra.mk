@@ -13,7 +13,8 @@ PRODUCT_PACKAGES += \
 
 # Configs
 PRODUCT_COPY_FILES += \
-    device/sony/extra/configs/preinstalled-packages-platform-dolby-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-platform-dolby-product.xml
+    device/sony/extra/configs/preinstalled-packages-platform-dolby-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-platform-dolby-product.xml \
+    device/sony/extra/configs/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
 
 # Exclude AudioFX
 TARGET_EXCLUDES_AUDIOFX := true
