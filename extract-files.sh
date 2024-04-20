@@ -9,7 +9,7 @@
 set -e
 
 DEVICE=extra
-VENDOR=sony
+VENDOR=sony/extra
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
