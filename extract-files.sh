@@ -63,6 +63,9 @@ function blob_fixup() {
             xmlstarlet ed -L --ps -d '//exceptions//exception[@package="com.facebook.appmanager"]' $2 &
             sed -i '/For docomo/d' $2 &
             ;;
+        vendor/etc/dolby/dax-default.xml)
+            sed -i "s/volume-leveler-enable value=\"true\"/volume-leveler-enable value=\"false\"/g" "${2}"
+            ;;
     esac
 }
 
