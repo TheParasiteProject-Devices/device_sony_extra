@@ -28,7 +28,6 @@ product/framework/somc-ext-mmwdiapi.jar
 
 # SoundEnhancement
 system_ext/etc/permissions/com.sonyericsson.soundenhancement.xml
-system_ext/priv-app/SoundEnhancement/SoundEnhancement.apk|3f229a280e4ac1f7088195488395ba12fe92a153
 
 # 360 RA
 product/overlay/ThreeSixtyRASystem-pdx234-Overlay.apk
@@ -36,7 +35,6 @@ system_ext/app/ThreeSixtyRASettings/ThreeSixtyRASettings.apk
 system_ext/etc/permissions/com.sony.threesixtyra.audiofx.xml
 system_ext/etc/permissions/jp.co.sony.threesixtyra.system.xml
 system_ext/framework/com.sony.threesixtyra.audiofx.jar
-system_ext/priv-app/ThreeSixtyRASystem/ThreeSixtyRASystem.apk|c17de58fd57f07f253c7278ea25e2f4d36073489
 vendor/bin/hw/android.hardware.media.c2@1.0-threesixty-ra-service
 vendor/etc/media_codecs_sony_c2_audio.xml
 vendor/etc/init/android.hardware.media.c2@1.0-threesixty-ra-service.rc
@@ -72,7 +70,6 @@ vendor/lib64/soundfx/libbundlewrapper1.so
 vendor/lib64/soundfx/libbundlewrapper2.so
 vendor/lib64/soundfx/libbundlewrapper3.so
 vendor/lib64/soundfx/libbundlewrapper4.so
-vendor/lib64/soundfx/libswdap.so|df21fbe4475431ea8f715f9d58da0cfec9f92fd7
 vendor/lib64/soundfx/libdlbvol.so
 vendor/lib64/soundfx/libswgamedap.so
 vendor/lib64/soundfx/libswvqe.so
@@ -117,3 +114,13 @@ vendor/etc/windnoise_reduction_stat_back.data
 
 # 360 RA data file
 vendor/etc/XTC_speaker_coef.hki
+
+# Pinned section
+# SoundEnhancement - from XQ-DQ72_Customized_SEA_67.1.A.2.208
+system_ext/priv-app/SoundEnhancement/SoundEnhancement.apk|3f229a280e4ac1f7088195488395ba12fe92a153
+
+# 360 RA - from XQ-DQ72_Customized_SEA_67.1.A.2.208
+system_ext/priv-app/ThreeSixtyRASystem/ThreeSixtyRASystem.apk|c17de58fd57f07f253c7278ea25e2f4d36073489
+
+# Dolby - from XQ-DQ72_Customized_SEA_67.1.A.2.208
+vendor/lib64/soundfx/libswdap.so|df21fbe4475431ea8f715f9d58da0cfec9f92fd7
