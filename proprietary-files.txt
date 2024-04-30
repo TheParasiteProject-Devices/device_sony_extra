@@ -137,6 +137,9 @@ vendor/etc/zoom_noise_reduction/znr_default_48k.tbl
 vendor/etc/zoom_noise_reduction/znr_parameter.xml
 vendor/etc/zoom_noise_reduction/znr_parameter_back.xml
 
+# Silence audio file
+vendor/etc/audio/audio-silence.wav
+
 # 360 RA data file
 vendor/etc/XTC_speaker_coef.hki
 
