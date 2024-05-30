@@ -26,6 +26,13 @@ product/framework/com.google.protobuf-2.3.0-dummy.jar
 product/framework/com.sonymobile.home.resourceprovider.jar
 product/framework/somc-ext-mmwdiapi.jar
 
+# Gaming
+product/app/GamingAccessorySettings/GamingAccessorySettings.apk
+product/app/GamingFanService/GamingFanService.apk
+product/app/ThermalFanService/ThermalFanService.apk
+system_ext/etc/permissions/com.sonymobile.gesdklibrary.xml
+system_ext/framework/com.sonymobile.gesdklibrary.jar
+
 # SoundEnhancement
 system_ext/priv-app/SoundEnhancement/SoundEnhancement.apk
 system_ext/etc/permissions/com.sonyericsson.soundenhancement.xml
