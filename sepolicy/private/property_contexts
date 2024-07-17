@@ -1,0 +1,2 @@
+# Media Vibration
+ro.somc.media_vibration.supported              u:object_r:audio_config_prop:s0

@@ -63,6 +63,9 @@ function blob_fixup() {
             xmlstarlet ed -L --ps -d '//exceptions//exception[@package="com.facebook.appmanager"]' $2
             sed -i '/For docomo/d' $2
             ;;
+       system_ext/etc/permissions/com.sonymobile.mediavibration.xml)
+            sed -i '/com.sonymobile.mediavibration">/a\        <permission name="android.permission.WRITE_SETTINGS"/>' $2 &
+            ;;
     esac
 }
 

@@ -31,3 +31,7 @@ persist.vendor.colorgamut.mode=1
 # X1 default setting
 PRODUCT_SYSTEM_PROPERTIES += \
 persist.service.xrfm.mode=1
+
+# Media Vibration
+PRODUCT_SYSTEM_PROPERTIES += \
+ro.somc.media_vibration.supported=true

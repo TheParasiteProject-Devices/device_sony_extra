@@ -12,6 +12,9 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
     device/sony/extra/framework_compatibility_matrix.xml
 
 # Extra sepolicy
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
+    device/sony/extra/sepolicy/private
+
 BOARD_VENDOR_SEPOLICY_DIRS += \
     device/sony/extra/sepolicy/vendor
 

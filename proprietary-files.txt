@@ -33,6 +33,10 @@ product/app/ThermalFanService/ThermalFanService.apk
 system_ext/etc/permissions/com.sonymobile.gesdklibrary.xml
 system_ext/framework/com.sonymobile.gesdklibrary.jar
 
+# Media Vibration
+system_ext/priv-app/MediaVibration/MediaVibration.apk
+system_ext/etc/permissions/com.sonymobile.mediavibration.xml
+
 # SoundEnhancement
 system_ext/priv-app/SoundEnhancement/SoundEnhancement.apk
 system_ext/etc/permissions/com.sonyericsson.soundenhancement.xml
