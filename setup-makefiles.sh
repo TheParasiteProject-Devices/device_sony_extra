@@ -1,9 +1,7 @@
 #!/bin/bash
 #
-# Copyright (C) 2016 The CyanogenMod Project
-# Copyright (C) 2017-2023 The LineageOS Project
-#
-# SPDX-License-Identifier: Apache-2.0
+# SPDX-FileCopyrightText: 2016 The CyanogenMod Project
+# SPDX-FileCopyrightText: 2017-2024 The LineageOS Project
 #
 
 set -e
@@ -31,6 +29,11 @@ setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}"
 write_headers
 
 write_makefiles "${MY_DIR}/proprietary-files.txt" true
+if [ -f "${MY_DIR}/../../${VENDOR}/${DEVICE}/proprietary-files-carriersettings.txt" ]; then
+    write_makefiles "${MY_DIR}/../../${VENDOR}/${DEVICE}/proprietary-files-carriersettings.txt"
+    write_rro_package "CarrierConfigOverlay" "com.android.carrierconfig" product
+    write_single_product_packages "CarrierConfigOverlay"
+fi
 
 if [ -f "${MY_DIR}/../../${VENDOR}/${DEVICE}/proprietary-firmware.txt" ]; then
     append_firmware_calls_to_makefiles "${MY_DIR}/proprietary-firmware.txt"
