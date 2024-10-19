@@ -53,7 +53,6 @@ vendor/lib64/libthreesixty_ra_codec2_store.so
 
 # Dolby
 system_ext/etc/permissions/com.dolby.daxservice.xml
-system_ext/lib64/vendor.dolby.hardware.dms@2.0.so:vendor/lib64/vendor.dolby.hardware.dms@2.0.so;SYMLINK=system_ext/lib64/vendor.dolby.hardware.dms@2.0.so
 system_ext/priv-app/DolbySound/DolbySound.apk;OVERRIDES=AudioFX,MusicFX
 system_ext/priv-app/daxService/daxService.apk
 vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service
@@ -81,7 +80,7 @@ vendor/lib64/soundfx/libdlbvol.so
 vendor/lib64/soundfx/libswgamedap.so
 vendor/lib64/soundfx/libswvqe.so
 vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so
-vendor/lib64/vendor.dolby.hardware.dms@2.0.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.dolby.hardware.dms@2.0.so;SYMLINK=system_ext/lib64/vendor.dolby.hardware.dms@2.0.so
 
 # Sound FX Libraries
 vendor/lib64/libXtcApi.so
