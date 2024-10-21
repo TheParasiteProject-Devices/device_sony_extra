@@ -22,5 +22,8 @@ TARGET_EXCLUDES_AUDIOFX := true
 # Properties
 include device/sony/extra/properties.mk
 
+# Exports variable
+TARGET_INCLUDE_SONY_EXTRA := true
+
 $(call inherit-product, vendor/sony/extra/extra-vendor.mk)
 $(call inherit-product, vendor/sony/extra/custom/config.mk)
