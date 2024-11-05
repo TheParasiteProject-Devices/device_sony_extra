@@ -6,7 +6,6 @@ product/app/SomcMediaExtensionProviderStarter/SomcMediaExtensionProviderStarter.
 product/lib64/libmepstarterjni.so
 product/priv-app/ExtMonitorApp/ExtMonitorApp.apk;PRESIGNED
 product/priv-app/SomcMediaExtensionProvider-Yodo/SomcMediaExtensionProvider-Yodo.apk;PRESIGNED
-product/priv-app/UsbExtOutAudio/UsbExtOutAudio.apk;PRESIGNED
 system_ext/priv-app/SomcColorGamut/SomcColorGamut.apk;PRESIGNED
 
 # Apps permissions
@@ -14,7 +13,6 @@ product/etc/default-permissions/pre_grant_permissions_oem.xml
 product/etc/permissions/com.sonyericsson.music.xml
 product/etc/permissions/com.sonymobile.extmonitorapp.xml
 product/etc/permissions/com.sonymobile.moviecreator.xml
-product/etc/permissions/jp.co.sony.mc.usbextoutaudio.xml
 product/etc/sysconfig/extmonitorapp-initial-package-stopped-states.xml
 system_ext/etc/permissions/com.sonymobile.colorgamut.xml
 
