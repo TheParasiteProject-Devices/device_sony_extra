@@ -58,3 +58,6 @@ fi
 
 # Finish
 write_footers
+
+# Overlays
+echo -e "\ninclude vendor/sony/extra/extra/overlays.mk" >> ${PRODUCTMK}
