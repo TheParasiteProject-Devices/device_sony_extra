@@ -1,7 +1,7 @@
 # Added system property for RID009076
 PRODUCT_SYSTEM_PROPERTIES += \
-persist.vendor.automaster.mode=true
-persist.vendor.colorgamut.current.mode=1
+persist.vendor.automaster.mode=true \
+persist.vendor.colorgamut.current.mode=1 \
 persist.vendor.reduce_afterimage.mode=false
 
 # AOSP
@@ -25,7 +25,7 @@ vendor.audio.dolby.ds2.enabled=true
 
 # Enable Color-Gamut
 PRODUCT_SYSTEM_PROPERTIES += \
-ro.sys.colorgamut.supported=true
+ro.sys.colorgamut.supported=true \
 persist.vendor.colorgamut.mode=1
 
 # X1 default setting
